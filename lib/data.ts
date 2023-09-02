@@ -69,8 +69,9 @@ export const projectsData = [
     imageUrl: KovacsTrading,
   },
   {
-    title: "Basic Portfolio",
-    description: "Basic Portfolio designed and built using Modern Web Stack.",
+    title: "Personal Portfolio",
+    description:
+      "Personal Portfolio designed and built using Modern Web Stack.",
     tags: ["React", "Next.JS", "TypeScript", "TailwindCSS", "Framer Motion"],
     imageUrl: RobertKovacsPortfolio,
   },
