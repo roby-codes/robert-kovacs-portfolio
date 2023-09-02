@@ -93,20 +93,22 @@ export default function Intro() {
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
-        <a
+        <Link
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/roby-codes"
           target="_blank"
+          aria-label="GitHub Profile"
         >
           <FaGithubSquare />
-        </a>
-        <a
+        </Link>
+        <Link
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://wa.me/+3395457864?text=Hello%20Roby%21%20I%20am%20contacting%20you%20from%20your%20Portfolio%20Website."
           target="_blank"
+          aria-label="WhatsApp Number"
         >
           <FaWhatsappSquare />
-        </a>
+        </Link>
       </motion.div>
     </section>
   );
