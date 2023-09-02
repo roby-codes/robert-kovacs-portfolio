@@ -4,7 +4,8 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import KovacsTrading from "@/public/KovacsTrading.jpg";
 import RobertKovacsPortfolio from "@/public/RobertKovacsPortfolio.jpg";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import ClickGeneration from "@/public/ClickGeneration.jpg";
+import LaPecoraNera from "@/public/LaPecoraNera.jpg";
 
 export const links = [
   {
@@ -65,22 +66,25 @@ export const projectsData = [
     title: "Kovacs Trading",
     description:
       "The platform that provides everything you need to become a successful trader.",
-    tags: ["React", "Next.JS", "TailwindCSS"],
+    tags: ["React", "Next.JS", "Tailwind CSS"],
     imageUrl: KovacsTrading,
+    projectUrl: "https://kovacs-trading.robycodes.com/",
   },
   {
-    title: "Personal Portfolio",
+    title: "Click Generation",
     description:
-      "Personal Portfolio designed and built using Modern Web Stack.",
-    tags: ["React", "Next.JS", "TypeScript", "TailwindCSS", "Framer Motion"],
-    imageUrl: RobertKovacsPortfolio,
+      "A StartUp with the goal of evolving small Italian companies using the power of Internet.",
+    tags: ["WordPress", "Elementor", "HTML", "CSS", "JavaScript"],
+    imageUrl: ClickGeneration,
+    projectUrl: "https://clickgeneration.it",
   },
   {
-    title: "Word Analytics",
+    title: "La Pecora Nera",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "An inviting restaurant where you can savor the finest, locally sourced foods with animals and vegetables grown from within a close radius.",
+    tags: ["WordPress", "Elementor", "HTML", "CSS", "JavaScript"],
+    imageUrl: LaPecoraNera,
+    projectUrl: "https://agriturismolapecoranera.com",
   },
 ] as const;
 
@@ -90,18 +94,12 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
-  "Node.js",
+  "Next.JS",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "Tailwind CSS",
   "Framer Motion",
+  "Elementor",
+  "WordPress",
+  "Hosting",
+  "Deployment",
 ] as const;
