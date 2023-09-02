@@ -1,9 +1,8 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { GiReceiveMoney } from "react-icons/gi";
+import { BiCodeAlt } from "react-icons/bi";
+import { AiFillYoutube } from "react-icons/ai";
 import KovacsTrading from "@/public/KovacsTrading.jpg";
-import RobertKovacsPortfolio from "@/public/RobertKovacsPortfolio.jpg";
 import ClickGeneration from "@/public/ClickGeneration.jpg";
 import LaPecoraNera from "@/public/LaPecoraNera.jpg";
 
@@ -36,28 +35,25 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "First Time Programming",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "I was playing a video game, and I wanted to create something to automate it, so I started watching YouTube videos to learn about ActionScript 3.0 and made a bot that played for me.",
+    icon: React.createElement(AiFillYoutube),
+    date: "2015",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "SaaS Business Owner",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "After using my bots for a while, I decided to start selling them. Over the years, I managed to resell both monthly and yearly licenses for my bots, gaining experience in connecting clients and servers for licensing my system.",
+    icon: React.createElement(GiReceiveMoney),
+    date: "2016 - 2019",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I'm now a full-stack developer working as a freelancer. My favorite stack is React, Next.JS, TypeScript, Tailwind CSS. I'm open to single projects development.",
+    icon: React.createElement(BiCodeAlt),
+    date: "2020 - Present",
   },
 ] as const;
 
