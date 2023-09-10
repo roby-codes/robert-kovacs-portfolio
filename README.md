@@ -1,4 +1,4 @@
-## Next JS 13 - Personal Portfolio
+## Robert Kovacs - Personal Portfolio
 
 **Tech Stack Used**
 
