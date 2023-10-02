@@ -44,7 +44,7 @@ export default function Header() {
               >
                 {link.name}
 
-                {link.name === activeSection && (
+                {link.name === activeSection ? (
                   <motion.span
                     className="bg-gray-100 rounded-full absolute inset-0 -z-10 dark:bg-gray-700"
                     layoutId="activeSection"
@@ -54,7 +54,7 @@ export default function Header() {
                       damping: 30,
                     }}
                   ></motion.span>
-                )}
+                ) : null}
               </Link>
             </motion.li>
           ))}
