@@ -1,7 +1,5 @@
 ## Robert Kovacs - Personal Portfolio
 
-**Project Overview**
-
 An animated portfolio designed and built using modern tech stack.
 
 **Tech Stack Used**
